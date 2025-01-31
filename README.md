@@ -1,20 +1,20 @@
-#GitHub User Activity Tracker
+# GitHub User Activity Tracker
 
 Ce projet permet de récupérer et d'analyser les activités publiques d'un utilisateur GitHub en utilisant l'API GitHub. Il génère un rapport détaillé des interactions de l'utilisateur avec les dépôts GitHub sous forme d'un fichier texte.
 
-##Fonctionnalités
+## Fonctionnalités
 
 - Récupération des événements publics d'un utilisateur GitHub.
 - Classification des événements par type d'activité.
 - Agrégation des actions effectuées sur chaque dépôt.
 - Génération d'un rapport récapitulatif sous format texte.
 
-##Prérequis
+## Prérequis
 
 - Python 3.x
 - Bibliothèque requests
 
-##Installation
+## Installation
 
 - Clonez ce dépôt :
 
@@ -29,7 +29,7 @@ cd github-activity-tracker
 pip install requests
 ```
 
-##Utilisation
+## Utilisation
 
 Exécutez le script Python :
 
@@ -41,7 +41,7 @@ Saisissez le nom d'utilisateur GitHub lorsque demandé.
 
 Un fichier texte sera généré dans le dossier tracking/ contenant un résumé des activités de l'utilisateur.
 
-##Exemple de sortie
+## Exemple de sortie
 
 Si un utilisateur a effectué plusieurs pushs sur un dépôt nommé repo-example, le fichier généré contiendra une ligne comme :
 
@@ -54,7 +54,7 @@ Structure du projet
 │── tracking/           # Dossier contenant les fichiers générés
 │── README.md           # Documentation
 
-##Améliorations futures
+## Améliorations futures
 
 - Ajout d'une interface graphique.
 - Support de plusieurs utilisateurs simultanément.
